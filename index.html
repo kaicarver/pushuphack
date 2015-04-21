@@ -4,8 +4,11 @@
 <style>
 p, button { font-size: 4em; } 
 button { color: red; }
-a { font-size: 6em; color: green; }
+a { font-size: 3em; color: green; }
 </style>
+<script>
+
+</script>
 </head>
 <body>
 <p>
@@ -15,5 +18,7 @@ This is the first version of the app.
 This <button>Button</button> will do something later.
 </p>
 <a href="#">Another kind of button</a>
+<button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button>
+<p id="demo"></p>
 </body>
 </html>
